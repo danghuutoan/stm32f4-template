@@ -1,7 +1,7 @@
 PROJECT = $(notdir $(CURDIR))
 # Replace your toolchain directory here
-TOOLCHAINDIR ?= /home/toan/Downloads/gcc-arm-none-eabi-5_4-2016q3/bin/
-COMPILER ?= $(TOOLCHAINDIR)arm-none-eabi-
+TOOLCHAINDIR ?= /home/toan/Downloads/gcc-arm-none-eabi-5_4-2016q3/
+COMPILER ?= $(TOOLCHAINDIR)bin/arm-none-eabi-
 CC      = $(COMPILER)gcc
 CP      = $(COMPILER)objcopy
 AS      = $(COMPILER)as
